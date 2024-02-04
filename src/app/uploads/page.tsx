@@ -1,19 +1,14 @@
-'use client';
+
 import Head from "next/head";
 import {getServerAuthSession} from "@/server/auth";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/router";
-import React, { useEffect, useState } from "react";
+
 import * as repl from "repl";
 export default async function  Upload (){
-  const { replace } = useRouter();
-  const session = await getServerAuthSession();
 
-   useEffect(() => {
-     {
-       void (session ? replace("/") : replace('/uploads'))
-     }
-   });
+
+
 
 
 

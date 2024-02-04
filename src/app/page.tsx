@@ -47,7 +47,7 @@ export default async function Home() {
 
               className="rounded-full bg-white/10 px-10 py-3 font-semibold no-underline transition hover:bg-white/20"
             >
-    {session ? "Upload Course Outline" : "Sign in to Upload Course outline"}
+    {session ? "Upload Course Outline" : "You need to sign in to upload course outline"}
 
             </Link>
 
