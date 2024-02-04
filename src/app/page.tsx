@@ -3,7 +3,6 @@ import Link from "next/link";
 import Head from "next/head";
 import { getServerAuthSession } from "@/server/auth";
 import { api } from "@/trpc/server";
-import NavigationBar from "@/components/Navigation";
 
 
 export default async function Home() {
