@@ -6,11 +6,15 @@ import { api } from "@/trpc/server";
 import useUser from './hooks/useUser'
 import Upload from "@/app/uploads/page";
 
+
+
+
+
 export default async function Home() {
   // eslint-disable-next-line @typescript-eslint/no-unsafe-call
   noStore();
   const session = await getServerAuthSession();
-  const username = useUser();
+
 
   return (
       <main>
@@ -36,6 +40,15 @@ export default async function Home() {
               className="rounded-full bg-white/10 px-10 py-3 font-semibold no-underline transition hover:bg-white/20"
             >
               {session ? "Sign out" : "Sign in"}
+            </Link>
+<Link
+       /* update css for the login button, needs to pop more */
+              href={session ?'/uploads': '/'}
+
+              className="rounded-full bg-white/10 px-10 py-3 font-semibold no-underline transition hover:bg-white/20"
+            >
+    {session ? "Upload Course Outline" : "Sign in to Upload Course outline"}
+
             </Link>
 
         </div>
