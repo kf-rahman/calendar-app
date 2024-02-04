@@ -2,6 +2,9 @@ import "@/styles/globals.css";
 import { Inter } from "next/font/google";
 import NavigationBar from "@/components/Navigation";
 import { TRPCReactProvider } from "@/trpc/react";
+
+
+
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-sans",
