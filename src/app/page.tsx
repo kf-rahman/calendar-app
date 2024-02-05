@@ -3,12 +3,6 @@ import Link from "next/link";
 import Head from "next/head";
 import { getServerAuthSession } from "@/server/auth";
 import { api } from "@/trpc/server";
-import useUser from './hooks/useUser'
-import Upload from "@/app/uploads/page";
-
-
-
-
 
 export default async function Home() {
   // eslint-disable-next-line @typescript-eslint/no-unsafe-call
