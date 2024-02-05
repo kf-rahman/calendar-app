@@ -1,12 +1,9 @@
 
 import Head from "next/head";
 import { getServerAuthSession } from "@/server/auth";
-import { useSession } from "next-auth/react";
-import { useRouter } from "next/navigation";
 
 export default async function Upload() {
 
-  // If the user is not authenticated, redirect to the login page
   const session = await getServerAuthSession();
   // need to modify return so that it takes you back to the homepage or asks you to login
   if (!session?.user) return null;

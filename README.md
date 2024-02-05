@@ -1,28 +1,25 @@
-# Create T3 App
-dev branch
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+# CalendlyAI(Name yet to be confirmed) 
+This is the dev branch for the CalendlyAI web app. Hoping to take this into production by Feb-15,2024.
+## What this project is
+The goal of this project is to combine the power of LLMs and Google's API to give students the little boost they 
+need in the beginning of every semester.
 
-## What's next? How do I make an app with this?
+In the begining of every semester students spend a good chunk of their time going through the outline of their courses
+and setting up a Google calendar around the import dates. The goal of this project is to automate that entire process.
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+Hopefully we can get this project to a stage where we can think of possibly adding some paid features such as if you 
+want to use this app for multiple subjects etc.
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+Main goal for now is to get the project production ready ASAP
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+A basic architecture of the app can be found here: https://app.eraser.io/workspace/4X0zgxPhtUJXdt3BXzoE?origin=share
 
-## Learn More
+## Motivation
+Main motivation of this project came from me trying to learn some full stack development. I wanted to work on a project
+that helped me learn full stack but also possible make something usefull.
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+Hoping to involve a group of people in this project so that this can be a collaborative project and a space for all of 
+us to become better developers
+## Basis Rules
+None yet. Just want to get the job done and make sure the user experience is smooth. 
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
-
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
-
-## How do I deploy this?
-
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
