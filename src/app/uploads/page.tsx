@@ -1,12 +1,15 @@
 
 import Head from "next/head";
 import { getServerAuthSession } from "@/server/auth";
+import {api} from "@/trpc/react";
 
 export default async function Upload() {
 
   const session = await getServerAuthSession();
   // need to modify return so that it takes you back to the homepage or asks you to login
   if (!session?.user) return null;
+
+
 
   // If the user is authenticated, continue rendering the component
   return (
