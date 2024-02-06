@@ -13,6 +13,8 @@ want to use this app for multiple subjects etc.
 Main goal for now is to get the project production ready ASAP
 
 A basic architecture of the app can be found here: https://app.eraser.io/workspace/4X0zgxPhtUJXdt3BXzoE?origin=share
+## Tech Stack
+This app uses the T3 stack
 
 ## Motivation
 Main motivation of this project came from me trying to learn some full stack development. I wanted to work on a project
